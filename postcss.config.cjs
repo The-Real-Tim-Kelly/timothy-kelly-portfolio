@@ -1,5 +1,1 @@
-module.exports = {
-  plugins: {
-    '@tailwindcss/postcss': {},
-  },
-};
+// This file is deprecated. Use postcss.config.js instead.
