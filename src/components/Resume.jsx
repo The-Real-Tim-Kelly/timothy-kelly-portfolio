@@ -68,7 +68,7 @@ export default function Resume() {
           Download Full Resume
         </h2>
         <a
-          href="/Timothy_D_Kelly_Resume.pdf"
+          href="Timothy_D_Kelly_Resume.pdf"
           download
           className={`inline-flex items-center gap-2 px-6 py-3 rounded transition-colors duration-200 ${isDark ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-blue-500 text-white hover:bg-blue-600'}`}
         >
