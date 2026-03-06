@@ -23,7 +23,7 @@ export default function Navigation() {
       <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
         <a
           href="#hero"
-          className={`text-2xl font-bold hover:opacity-70 transition-opacity duration-200 ${
+          className={`text-2xl font-bold hover:opacity-70 transition-opacity duration-200 flex items-center justify-center w-8 h-8 ${
             isDark ? 'text-white' : 'text-black'
           }`}
         >
