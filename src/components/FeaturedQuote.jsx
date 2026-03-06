@@ -12,28 +12,34 @@ export default function FeaturedQuote() {
       }`}
     >
       <div className="max-w-4xl mx-auto text-center">
-        <div className="flex justify-center items-start gap-4 mb-8">
+        <blockquote className="relative">
           <span
-            className={`text-6xl md:text-7xl font-serif leading-none ${
+            className={`absolute top-0 left-0 text-6xl md:text-7xl font-serif leading-none transform -translate-x-4 -translate-y-4 ${
               isDark ? 'text-gray-700' : 'text-gray-300'
             }`}
           >
             "
           </span>
-        </div>
-        
-        <blockquote>
+
           <p
-            className={`text-2xl md:text-3xl font-semibold leading-relaxed mb-8 ${
+            className={`text-2xl md:text-3xl font-semibold leading-relaxed mb-8 px-12 ${
               isDark ? 'text-gray-100' : 'text-gray-900'
             }`}
           >
             If you never make mistakes then you are not on the frontier of discovery, for there
             is where mistakes are made all the time.
           </p>
+
+          <span
+            className={`absolute bottom-0 right-0 text-6xl md:text-7xl font-serif leading-none transform translate-x-4 translate-y-4 ${
+              isDark ? 'text-gray-700' : 'text-gray-300'
+            }`}
+          >
+            "
+          </span>
           
           <footer
-            className={`text-lg font-semibold ${
+            className={`text-lg font-semibold pt-8 ${
               isDark ? 'text-blue-400' : 'text-blue-600'
             }`}
           >
@@ -41,18 +47,8 @@ export default function FeaturedQuote() {
           </footer>
         </blockquote>
 
-        <div className="flex justify-end items-end gap-4 mb-8">
-          <span
-            className={`text-6xl md:text-7xl font-serif leading-none ${
-              isDark ? 'text-gray-700' : 'text-gray-300'
-            }`}
-          >
-            "
-          </span>
-        </div>
-
         <div
-          className={`mt-8 h-1 w-16 mx-auto rounded-full ${
+          className={`mt-12 h-1 w-16 mx-auto rounded-full ${
             isDark ? 'bg-blue-600' : 'bg-blue-500'
           }`}
         ></div>
