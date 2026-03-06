@@ -50,7 +50,7 @@ export default function PersonalLife() {
           servers locally, diving into casual gaming sessions with friends,
           or enjoying quality time with my pets. Outside of the digital world,
           I'm also passionate about yard work and keeping my space maintained to
-          perfection.
+          exactly how I like it!
         </p>
       </div>
 
