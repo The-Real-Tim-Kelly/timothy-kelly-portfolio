@@ -1,6 +1,7 @@
 import { useTheme } from './context/ThemeContext';
 import Hero from './components/Hero';
 import About from './components/About';
+import FeaturedQuote from './components/FeaturedQuote';
 import EngineeringPhilosophy from './components/EngineeringPhilosophy';
 import CurrentExperiments from './components/CurrentExperiments';
 import DetailedExperience from './components/DetailedExperience';
@@ -20,6 +21,7 @@ function App() {
       <section id="about">
         <About />
       </section>
+      <FeaturedQuote />
       <EngineeringPhilosophy />
       <CurrentExperiments />
       <section id="experience">

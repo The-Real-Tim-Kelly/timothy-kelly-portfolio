@@ -57,17 +57,6 @@ export default function Hero() {
       {/* Action Buttons */}
       <div className="mt-10 flex gap-4 flex-wrap justify-center">
         <a
-          href="#about"
-          className={`px-8 py-3 rounded-lg font-semibold transition-all duration-200 ${
-            isDark
-              ? 'bg-blue-600 text-white hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-500/50'
-              : 'bg-blue-600 text-white hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-400/50'
-          }`}
-        >
-          View Projects
-        </a>
-
-        <a
           href="https://github.com/The-Real-Tim-Kelly"
           target="_blank"
           rel="noopener noreferrer"
