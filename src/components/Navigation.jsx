@@ -5,6 +5,7 @@ export default function Navigation() {
 
   const navItems = [
     { label: 'About', href: '#about' },
+    { label: 'Philosophy', href: '#philosophy' },
     { label: 'Experience', href: '#experience' },
     { label: 'Skills', href: '#skills' },
     { label: 'Education', href: '#education' },
