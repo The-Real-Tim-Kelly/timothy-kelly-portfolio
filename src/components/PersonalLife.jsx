@@ -4,7 +4,7 @@ const pets = [
   {
     name: 'Luna',
     breed: 'Black Lab / Golden Retriever mix',
-    image: '/luna.jpg',
+    image: 'luna.jpg',
     description:
       '"By your hip dog" - Luna LOVES to play fetch and always knows when you\'re feeling down. She makes an incredible effort to cheer you up. It\'s amazing how she just knows when you need that comfort.',
     traits: ['Loyal', 'Playful', 'Empathetic'],
@@ -12,7 +12,7 @@ const pets = [
   {
     name: 'Miranda',
     breed: 'Great Pyrenese / Golden Retriever mix',
-    image: '/miranda.jpg',
+    image: 'miranda.jpg',
     description:
       "Independent with a mind of her own - very typical Great Pyrenese energy! While she loves to counter surf and has her own agenda, she's absolutely 100% a good dog and loves her family to no end.",
     traits: ['Independent', 'Loving', 'Spirited'],
