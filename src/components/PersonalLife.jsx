@@ -47,7 +47,7 @@ export default function PersonalLife() {
           className={`mb-4 leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-700'}`}
         >
           When I'm not building systems, you can find me maintaining gaming
-          servers locally, diving into competitive gaming sessions with friends,
+          servers locally, diving into casual gaming sessions with friends,
           or enjoying quality time with my pets. Outside of the digital world,
           I'm also passionate about yard work and keeping my space maintained to
           perfection.
