@@ -6,9 +6,10 @@ export default function Resume() {
   const { personal, summary } = resumeData;
 
   return (
-    <div
-      className={`py-24 px-6 max-w-4xl mx-auto transition-colors duration-300 ${isDark ? 'bg-black' : 'bg-white'}`}
+    <section
+      className={`py-24 px-6 transition-colors duration-300 ${isDark ? 'bg-black' : 'bg-white'}`}
     >
+      <div className="max-w-6xl mx-auto">
       <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-12">
         <div>
           <h1
@@ -88,6 +89,7 @@ export default function Resume() {
           Download PDF Resume
         </a>
       </div>
-    </div>
+      </div>
+    </section>
   );
 }

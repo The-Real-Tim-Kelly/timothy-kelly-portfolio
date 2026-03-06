@@ -17,11 +17,12 @@ export default function DetailedSkills() {
   ];
 
   return (
-    <div
-      className={`py-24 px-6 max-w-4xl mx-auto transition-colors duration-300 ${isDark ? 'bg-black' : 'bg-white'}`}
+    <section
+      className={`py-24 px-6 transition-colors duration-300 ${isDark ? 'bg-black' : 'bg-white'}`}
     >
+      <div className="max-w-6xl mx-auto">
       <h2
-        className={`text-3xl font-bold mb-12 ${isDark ? 'text-white' : 'text-black'}`}
+        className={`text-4xl md:text-5xl font-bold mb-12 ${isDark ? 'text-white' : 'text-black'}`}
       >
         Technical Skills
       </h2>
@@ -50,6 +51,7 @@ export default function DetailedSkills() {
           </div>
         ))}
       </div>
-    </div>
+      </div>
+    </section>
   );
 }
