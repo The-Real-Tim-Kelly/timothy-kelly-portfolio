@@ -29,7 +29,7 @@ export default function Hero() {
           isDark ? 'text-blue-400' : 'text-blue-600'
         }`}
       >
-        Senior Backend Engineer
+        Senior Software Engineer
       </p>
 
       <p

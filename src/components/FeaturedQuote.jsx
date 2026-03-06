@@ -12,9 +12,15 @@ export default function FeaturedQuote() {
       }`}
     >
       <div className="max-w-4xl mx-auto text-center">
-        <svg className="w-12 h-12 mx-auto mb-6 opacity-50" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M3 21c3 0 7-1 7-8V5c0-1.25-4.716-2.5-7-2.5m0 18c-6 0-7-1-7-8V5c0-1.25 2-2.5 7-2.5" />
-        </svg>
+        <div className="flex justify-center items-start gap-4 mb-8">
+          <span
+            className={`text-6xl md:text-7xl font-serif leading-none ${
+              isDark ? 'text-gray-700' : 'text-gray-300'
+            }`}
+          >
+            "
+          </span>
+        </div>
         
         <blockquote>
           <p
@@ -34,6 +40,16 @@ export default function FeaturedQuote() {
             — Neil deGrasse Tyson
           </footer>
         </blockquote>
+
+        <div className="flex justify-end items-end gap-4 mb-8">
+          <span
+            className={`text-6xl md:text-7xl font-serif leading-none ${
+              isDark ? 'text-gray-700' : 'text-gray-300'
+            }`}
+          >
+            "
+          </span>
+        </div>
 
         <div
           className={`mt-8 h-1 w-16 mx-auto rounded-full ${

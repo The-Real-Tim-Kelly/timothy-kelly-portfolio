@@ -10,11 +10,6 @@ export default function EngineeringPhilosophy() {
         'Systems should be open for extension but closed for modification. This enables adding new features without altering existing, tested code.',
     },
     {
-      title: 'Strategy Pattern',
-      description:
-        'Encapsulate algorithms into interchangeable strategies, allowing runtime selection without conditional logic scattered throughout the codebase.',
-    },
-    {
       title: 'Dependency Injection',
       description:
         'Invert control by injecting dependencies rather than creating them internally. This reduces coupling and makes systems more flexible and testable.',
@@ -34,13 +29,12 @@ export default function EngineeringPhilosophy() {
       description:
         'Balance architecture with pragmatism. Over-engineering is as harmful as under-engineering—know when the abstraction pays for itself.',
     },
+    {
+      title: 'Conviction Without Attachment',
+      description:
+        'Be confident enough to advocate for your approach while remaining humble enough to accept a better way. Strong opinions, loosely held—commit fully to your direction, but switch instantly when shown something superior.',
+    },
   ];
-
-  const codeExample = `public interface IStrategy<TInput, TOutput>
-{
-    int Key { get; }
-    TOutput Execute(TInput input);
-}`;
 
   return (
     <section
@@ -72,7 +66,7 @@ export default function EngineeringPhilosophy() {
         </p>
 
         {/* Philosophy Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {philosophyItems.map((item, index) => (
             <div
               key={index}
@@ -98,49 +92,6 @@ export default function EngineeringPhilosophy() {
               </p>
             </div>
           ))}
-        </div>
-
-        {/* Code Example Section */}
-        <div>
-          <h3
-            className={`text-2xl font-bold mb-4 ${
-              isDark ? 'text-white' : 'text-black'
-            }`}
-          >
-            Core Abstraction
-          </h3>
-          <p
-            className={`mb-6 ${isDark ? 'text-gray-400' : 'text-gray-600'}`}
-          >
-            The strategy pattern forms the backbone of extensible systems I design. This simple
-            interface enables powerful runtime behavior selection without conditional complexity.
-          </p>
-
-          {/* Code Block */}
-          <div
-            className={`rounded-lg border p-6 overflow-x-auto ${
-              isDark
-                ? 'bg-gray-900 border-gray-800'
-                : 'bg-gray-100 border-gray-300'
-            }`}
-          >
-            <pre
-              className={`font-mono text-sm leading-relaxed ${
-                isDark ? 'text-gray-100' : 'text-gray-900'
-              }`}
-            >
-              <code>{codeExample}</code>
-            </pre>
-          </div>
-
-          <p
-            className={`mt-6 text-sm ${
-              isDark ? 'text-gray-500' : 'text-gray-600'
-            }`}
-          >
-            This interface encapsulates behavior, allowing concrete strategies to be swapped at
-            runtime based on context, enabling the Open/Closed Principle in practice.
-          </p>
         </div>
       </div>
     </section>
