@@ -9,6 +9,7 @@ import DetailedSkills from './components/DetailedSkills';
 import Education from './components/Education';
 import PersonalLife from './components/PersonalLife';
 import Resume from './components/Resume';
+import BugSquashGame from './components/BugSquashGame';
 import Navigation from './components/Navigation';
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
       <section id="resume">
         <Resume />
       </section>
+      <BugSquashGame />
     </div>
   );
 }
